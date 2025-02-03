@@ -13,7 +13,7 @@ def calculate():
     data = request.json
     amount = data.get("amount", 50000)  
     interest = data.get("interest", 5)
-    tenure = data.get("tenure", 12)
+    
 
     emi = calculate_emi(amount, interest, tenure)
     
