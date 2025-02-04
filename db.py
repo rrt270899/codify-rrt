@@ -8,8 +8,7 @@ def setup_database():
     CREATE TABLE LoanRecords (
         amount INTEGER,
         interest INTEGER,  
-        tenure INTEGER,
-        emi INTEGER
+        tenure INTEGER
     ))
     
     conn.commit()

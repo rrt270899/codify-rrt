@@ -1,7 +1,6 @@
 document.getElementById("calculate").addEventListener("click", function() {
     let amount = document.getElementById("amount").value;
     let interest = document.getElementById("interest").value;
-    let tenure = document.getElementById("tenure").value;
 
     fetch("http://127.0.0.1:5000/calculate_emi", {
         method: "POST",
